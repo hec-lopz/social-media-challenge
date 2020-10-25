@@ -19,6 +19,11 @@
   "homepage": "https://github.com/hec-lopz/social-media-challenge#readme",
   "dependencies": {},
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "grunt": "^1.3.0",
+    "live-server": "^1.2.1",
+    "grunt-contrib-cssmin": "~3.0.0",
+    "grunt-contrib-htmlmin": "~3.1.0",
+    "grunt-contrib-uglify": "~5.0.0",
+    "grunt-contrib-watch": "~1.1.0"
   }
 }

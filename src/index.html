@@ -17,12 +17,15 @@
   <body class="">
     <header class="container">
       <div class="title-container">
-        <h1>Social Media Dashboard</h1>
+        <h1 class="--primary-text">Social Media Dashboard</h1>
         <span class="--secondary-text">Total Followers: 23,004</span>
       </div>
       <nav class="mode-toggle --secondary-text">
         <span>Dark Mode</span>
-        <i class="toggle-button"></i>
+        <label for="dark-mode-button">
+          <input name="dark-mode-button" type="checkbox" id="dark-mode-button">
+          <i class="toggle-button"></i>
+        </label>
       </nav>
     </header>
     <main class="container">
@@ -34,7 +37,7 @@
               <span class="social-media-username --secondary-text">@nathanf</span>
             </div>
             <div class="dashboard__card--followers">
-              <div class="followers-counter">1987</div>
+              <div class="followers-counter --primary-text">1987</div>
               <span class="followers">followers</span>
             </div>
             <div class="dashboard__card--variation --red-variation">
@@ -51,7 +54,7 @@
               <span class="social-media-username --secondary-text">@nathanf</span>
             </div>
             <div class="dashboard__card--followers">
-              <div class="followers-counter">1987</div>
+              <div class="followers-counter --primary-text">1987</div>
               <span class="followers">followers</span>
             </div>
             <div class="dashboard__card--variation --red-variation">
@@ -68,7 +71,7 @@
               <span class="social-media-username --secondary-text">@nathanf</span>
             </div>
             <div class="dashboard__card--followers">
-              <div class="followers-counter">1987</div>
+              <div class="followers-counter --primary-text">1987</div>
               <span class="followers">followers</span>
             </div>
             <div class="dashboard__card--variation --red-variation">
@@ -85,7 +88,7 @@
               <span class="social-media-username --secondary-text">@nathanf</span>
             </div>
             <div class="dashboard__card--followers">
-              <div class="followers-counter">1987</div>
+              <div class="followers-counter --primary-text">1987</div>
               <span class="followers">followers</span>
             </div>
             <div class="dashboard__card--variation --red-variation">
@@ -97,27 +100,151 @@
         </div>
 
       </section>
-      <section class="overview container">
-        <div class="title">
-          <h1>Overview</h1>
-          <span class="title-date">Today</span>
-        </div>
-        <div class="overview-card">
+      <div class="overview__title --primary-text">
+        <h1>Overview -</h1>
+        <span class="title-date">Today</span>
+  
+      </div>
+      <section class="overview">
+        <div class="dashboard__card --overview-card facebook">
           <div class="overview-card__counter">
-            <span class="item-name">Page Views</span>
-            <b class="item-counter">87</b>
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
           </div>
           <div class="overview-card__network">
             <i class="overview-card__network-icon"></i>
-            <span class="overview-card__network-variation"> 
+            <span class="overview-card__network-variation --green-variation"> 
             <i class="variation-icon"></i>
-              
+              2%
+            </span>
+  
+          </div>
+        </div>
+        <div class="dashboard__card --overview-card twitter">
+          <div class="overview-card__counter">
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
+          </div>
+          <div class="overview-card__network">
+            <i class="overview-card__network-icon"></i>
+            <span class="overview-card__network-variation --green-variation"> 
+            <i class="variation-icon"></i>
+              2%
+            </span>
+  
+          </div>
+        </div>
+        <div class="dashboard__card --overview-card instagram">
+          <div class="overview-card__counter">
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
+          </div>
+          <div class="overview-card__network">
+            <i class="overview-card__network-icon"></i>
+            <span class="overview-card__network-variation --green-variation"> 
+            <i class="variation-icon"></i>
+              2%
+            </span>
+  
+          </div>
+        </div>
+        <div class="dashboard__card --overview-card youtube">
+          <div class="overview-card__counter">
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
+          </div>
+          <div class="overview-card__network">
+            <i class="overview-card__network-icon"></i>
+            <span class="overview-card__network-variation --green-variation"> 
+            <i class="variation-icon"></i>
+              2%
+            </span>
+  
+          </div>
+        </div>
+        <div class="dashboard__card --overview-card youtube">
+          <div class="overview-card__counter">
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
+          </div>
+          <div class="overview-card__network">
+            <i class="overview-card__network-icon"></i>
+            <span class="overview-card__network-variation --green-variation"> 
+            <i class="variation-icon"></i>
+              2%
+            </span>
+  
+          </div>
+        </div>
+        <div class="dashboard__card --overview-card youtube">
+          <div class="overview-card__counter">
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
+          </div>
+          <div class="overview-card__network">
+            <i class="overview-card__network-icon"></i>
+            <span class="overview-card__network-variation --green-variation"> 
+            <i class="variation-icon"></i>
+              2%
+            </span>
+  
+          </div>
+        </div>
+        <div class="dashboard__card --overview-card youtube">
+          <div class="overview-card__counter">
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
+          </div>
+          <div class="overview-card__network">
+            <i class="overview-card__network-icon"></i>
+            <span class="overview-card__network-variation --green-variation"> 
+            <i class="variation-icon"></i>
+              2%
+            </span>
+  
+          </div>
+        </div>
+        <div class="dashboard__card --overview-card youtube">
+          <div class="overview-card__counter">
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
+          </div>
+          <div class="overview-card__network">
+            <i class="overview-card__network-icon"></i>
+            <span class="overview-card__network-variation --green-variation"> 
+            <i class="variation-icon"></i>
+              2%
+            </span>
+  
+          </div>
+        </div>
+        <div class="dashboard__card --overview-card youtube">
+          <div class="overview-card__counter">
+            <span class="item-name --secondary-text">Page Views</span>
+            <b class="item-counter --primary-text">87</b>
+          </div>
+          <div class="overview-card__network">
+            <i class="overview-card__network-icon"></i>
+            <span class="overview-card__network-variation --green-variation"> 
+            <i class="variation-icon"></i>
+              2%
             </span>
   
           </div>
         </div>
       </section>
     </main>
+    <script>
+      const $checkbox = document.getElementById('dark-mode-button');
+      const $body = document.querySelector("body");
+      $checkbox.addEventListener('change', () => {
+        if ($body.classList.contains("dark-mode")){
+          $body.classList.remove("dark-mode")
+        } else {
+          $body.classList.add("dark-mode")
+        }
+      })
+    </script>
     <!-- Social Media Dashboard Total Followers: 23,004 Dark Mode @nathanf 1987
     Followers 12 Today @nathanf 1044 Followers 99 Today @realnathanf 11k
     Followers 1099 Today Nathan F. 8239 Subscribers 144 Today Overview - Today
