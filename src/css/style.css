@@ -51,13 +51,13 @@
     /********** *\
     *   Misc
     \********* */
-    --up-icon:url(./images/icon-up.svg);
-    --down-icon:url(./images/icon-down.svg);
+    --up-icon:url(../images/icon-up.svg);
+    --down-icon:url(../images/icon-down.svg);
 
-    --fb-icon: url(./images/icon-facebook.svg);
-    --tw-icon: url(./images/icon-twitter.svg);
-    --ig-icon: url(./images/icon-instagram.svg);
-    --yt-icon: url(./images/icon-youtube.svg);
+    --fb-icon: url(../images/icon-facebook.svg);
+    --tw-icon: url(../images/icon-twitter.svg);
+    --ig-icon: url(../images/icon-instagram.svg);
+    --yt-icon: url(../images/icon-youtube.svg);
 }
 
 html{
