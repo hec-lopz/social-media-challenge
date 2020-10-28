@@ -27,12 +27,14 @@
     --white-bg: hsl(0, 0%, 100%);
     --top-bg-pattern: hsl(225, 100%, 98%);
     --card-bg: hsl(227, 47%, 96%);
+    --card-bg-hover:#E1E3F0;
     --main-text: hsl(230, 17%, 14%);
     --secondary-text: hsl(228, 12%, 44%);
         /* Dark Theme */
     --dark--bg: hsl(230, 17%, 14%);
     --dark-top-bg-pattern: hsl(232, 19%, 15%);
     --dark-card-bg: hsl(228, 28%, 20%);
+    --dark-card-bg-hover:#333a56;
     --dark-main-text: hsl(0, 0%, 100%);
     --dark-secondary-text: hsl(228, 34%, 66%);
 
@@ -124,6 +126,10 @@ nav .toggle-button {
     background: var(--light-toggle);
     cursor: pointer;
 }
+nav .toggle-button:hover {
+    background: var(--dark-toggle);
+}
+
 nav .toggle-button::before {
     content: "";
     display: inline-block;
@@ -139,10 +145,15 @@ nav .toggle-button::before {
 #dark-mode-button:checked ~ .toggle-button{
     background: var(--dark-toggle);
 }
+
 #dark-mode-button:checked ~ .toggle-button::before{
     background-color: var(--dark-top-bg-pattern);
     transform: translate(4px);
 }
+#dark-mode-button:checked:hover ~ .toggle-button::before{
+    background-color: var(--dark-card-bg-hover);
+}
+
 .--secondary-text {
     font-size: 1.4rem;
     color: var(--secondary-text);
@@ -182,7 +193,12 @@ nav .toggle-button::before {
     border-bottom-left-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
     background-color: var(--card-bg);
+    cursor: pointer;
 }
+.dashboard__card:hover{
+    background-color: var(--card-bg-hover);
+}
+
 .dashboard__card--social-media{
     display: flex;
     align-items: center;
@@ -360,6 +376,11 @@ nav .toggle-button::before {
 .dark-mode .dashboard__card{
     background-color: var(--dark-card-bg);
 }
+.dark-mode .dashboard__card:hover{
+    background-color: var(--dark-card-bg-hover);
+
+}
+
 .dark-mode .--primary-text{
     color: var(--dark-main-text);
 }
